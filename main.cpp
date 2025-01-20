@@ -1,18 +1,9 @@
 #include <iostream>
+#include "system.h"
 
-class System {
-public:
-    System() {     
-           
-    }
-
-    void updateRule() {
-        
-    }
-};
 
 int main() {
-    System system;
+    System system(100, 20, 0.5, 0.1);
     system.updateRule();
     return 0;
 }
