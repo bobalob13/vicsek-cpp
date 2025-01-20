@@ -2,12 +2,17 @@
 
 class System {
 public:
-    System() {
-        std::cout << "System object created!" << std::endl;
+    System() {     
+           
+    }
+
+    void updateRule() {
+        
     }
 };
 
 int main() {
     System system;
+    system.updateRule();
     return 0;
 }
