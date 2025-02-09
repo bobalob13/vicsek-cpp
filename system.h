@@ -5,6 +5,7 @@
 #include "box.h"
 #include "particle.h"
 #include <random>
+#include <string>
 
 class System {
 	public:
@@ -24,6 +25,8 @@ class System {
 		
 		void updateRule();
 		double uniform(double min, double max);
+		void randomStart();
+		void saveConfig(const std::string &filename);
 };
 
 #endif
