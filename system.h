@@ -6,6 +6,7 @@
 #include "particle.h"
 #include <random>
 #include <string>
+#include <fstream>
 
 class System {
 	public:
